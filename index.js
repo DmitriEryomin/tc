@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { ArgumentParser } = require('argparse');
 
 const { create: createHTML5 } = require('./templates/simpleHTML5');
@@ -10,7 +12,7 @@ const parser = new ArgumentParser({
 });
 
 parser.add_argument('-v', '--version', { action: 'version', version });
-parser.add_argument('--template', {
+parser.add_argument('--type', {
   help: 'creates template',
 });
 
@@ -24,7 +26,7 @@ const args = parser.parse_args();
   }
 
   createTemplate(templateType);
-})(args.template);
+})(args.type);
 
 function createTemplate(templateType) {
   switch (templateType) {
