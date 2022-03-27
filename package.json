@@ -1,0 +1,14 @@
+{
+  "name": "tc",
+  "version": "0.0.1",
+  "description": "Template Creator for Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dmitri.eryomin@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^2.0.1"
+  }
+}
