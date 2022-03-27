@@ -1,5 +1,5 @@
 {
-  "name": "tc",
+  "name": "@spirit-limbo/tc",
   "version": "0.0.1",
   "description": "Template Creator for Projects",
   "main": "index.js",
@@ -10,5 +10,18 @@
   "license": "MIT",
   "dependencies": {
     "argparse": "^2.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriEryomin/tc.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "template"
+  ],
+  "bugs": {
+    "url": "https://github.com/DmitriEryomin/tc/issues"
+  },
+  "homepage": "https://github.com/DmitriEryomin/tc#readme"
 }
